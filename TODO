@@ -1,0 +1,21 @@
+Detail penilaian submission
+Bintang 1 : Semua ketentuan terpenuhi, namun terdapat indikasi plagiat yaitu dengan menggunakan proyek orang lain dan hanya mengubah kontennya saja.
+Bintang 2 : Semua ketentuan terpenuhi, namun tidak lebih baik dari latihan yang diberikan.
+Bintang 3 : Semua ketentuan terpenuhi, namun hanya mengikuti latihan yang ada di kelas.
+Bintang 4 : Semua ketentuan terpenuhi dan menerapkan minimal 2 (dua) saran di atas.
+Bintang 5 : Semua ketentuan terpenuhi dan menerapkan minimal 4 (empat) saran di atas.
+
+Todo:
+  ✔ Menggunakan package pihak ke-3 yang di-install melalui package manager (bukan CDN), Lodash, Axios, JQuery, dsb. @done(20-09-04 22:11)
+
+  ✔ Memiliki pemilihan warna yang pas dengan tema aplikasi (dalam memilih warna, Anda dapat memanfaatkan tools pemilihan warna seperti colorhunt.co). @done(20-09-04 22:11)
+
+  ✔ Tata letak elemen yang pas. @done(20-09-04 22:11)
+  
+  ✔ Menuliskan kode dengan bersih dan konsisten. Anda bisa memanfaatkan Linter seperti ESLint dalam menjaga gaya penulisan kode. @done(20-09-04 22:11)
+
+  ✔ Menggunakan Loader atau Plugin di luar yang diajarkan pada modul. @done(20-09-09 06:33) Plugin SASS and Cleanwebpack
+
+  ✔ Menerapkan optimasi bundle seperti minifying atau split chunk. @done(20-09-05 12:38)
+
+  ✔ Mengeksplorasi penggunaan loader dan plugin pada Webpack agar web app yang dibuat lebih optimal. @done(20-09-09 06:33)

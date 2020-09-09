@@ -1,18 +1,20 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
- 
+
 module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "bundle.js"
+        filename: '[name].[contenthash].js', // this line is the only difference
     },
     module: {
         rules: [
             /* style and css loader */
             {
-                test: /\.scss$/,
+                test: /\.(s?)css$/,
+                // test: /\.s[ac]ss$/,
                 use: [
+                    
                     {
                         loader: "style-loader"
                     },

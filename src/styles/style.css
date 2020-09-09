@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
+
+*{
+    font-family: 'Copse', serif;
+}
+@media(min-width: 1000px) {
+    .mv-5{
+        margin-right: 5em;
+    }
+}
+
+hr.dashed {
+    border-top: 2px dashed #999;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dataTables_filter {
+    float: right !important;
+    margin-right: 15px;
+}
+
+.dataTables_filter label {
+    width: 20rem;
+}
+
+.dataTables_paginate{
+    float: right !important;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  #spinner{
+    visibility: hidden;
+    width: 80px;
+    height: 80px;
+  
+    border: 2px solid #f3f3f3;
+    border-top:3px solid #f25a41;
+    border-radius: 100%;
+  
+    position: absolute;
+    top:2;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+  
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+  }
+  
+  #spinner.show {
+    visibility: visible;
+  }
